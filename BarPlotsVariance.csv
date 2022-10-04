@@ -1,0 +1,11 @@
+game,age,percentage_correct_responses,commision_errors,omission_errors,mean_reaction_time,total_duration,no_of_records,total_records
+Alternating,4,112.634784,4.628099174,4.066115702,48214.56198,0,11,
+Divided,4,291.838843,2.198347107,1.867768595,24541.32231,0,11,
+Sustained,4,50.81430535,0,1.359375,35611.23438,2693107517,8,
+Focused,4,90.53254438,0,0.905325444,64169.4571,5905325.444,26,
+Selective,4,339.6141377,0.860826446,1.629752066,0,29639378.98,55,111
+Alternating,5,,,,,,11,
+Divided,5,,,,,,9,
+Sustained,5,,0,,,,5,
+Focused,5,,0,,,,26,
+Selective,5,,,,0,,54,105

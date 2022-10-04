@@ -1,0 +1,43 @@
+id,child_gender,child_age,stimulus,colour,sequence_of_responses,total_correct_responses,correct_responses,commission_errors,omission_errors,mean_reaction_time,total_duration,diagnosis,percentage_no_of_correct_responses
+1,2,4,pink,bird,"[C, C, C, C, C, C, C, M, C, C, C, C, C, C, C, M, C, M, C, M]",20,16,0,4,1500,132928,   No,80
+2,1,4,yellow,bird,"[C, C, C, C, C, C, C, C, C, C, C, C, C, C, M, C, C, C, M, C]",20,18,0,2,1472,133598,   No,90
+3,2,4,pink,bird,"[C, C, C, C, C, C, M, C, C, C, C, C, C, C, C, C, C, C, C, C, M, C, C, C, C, C, C, M, C, C, C]",31,28,0,3,1523,203243,   No,90.32258065
+4,2,4,pink,bird,"[C, C, C, C, C, C, C, C, C, C, C, M, C]",13,12,0,1,1267,86043,   No,92.30769231
+5,2,4,pink,bird,"[C, C, C, C, C, C, C]",7,7,0,0,1501,46708,   No,100
+6,1,4,red,bird,"[M, C, C, M, C, C, C, C, C, C, C, C, C, C, C, C, C]",17,15,0,2,1369,114319,   No,88.23529412
+7,1,4,red,bird,"[M, C, C, C, C, C, C, C, C, C, C, C, C, C]",15,13,0,2,998,95887,   No,86.66666667
+8,1,4,pink,bird,"[C, C, C, M]",4,3,0,1,1655,25196,   No,75
+9,2,5,pink,bird,"[C, C, C, C, C, C, C, C, C, C, C, C, C, C, C, C, C, C, C, C, C, C, C, C, C, C, C, C, C, C, C, C, C, M]",34,33,0,1,1296,220070,   No,97.05882353
+10,2,5,red,bird,"[C, C, C, C, C, M]",7,5,0,2,1173,44919,   No,71.42857143
+11,1,5,pink,bird,"[C, C, C, C, C, C, C, C, C, C, C, C, C]",14,13,0,1,851,86529,   No,92.85714286
+12,1,5,pink,bird,"[C, C, C, M, C]",5,4,0,1,1029,33134,   No,80
+13,2,5,red,bird,"[C, C, C, C, C, C, C, C, C, C, C, M, C, C, C, C]",17,15,0,2,1056,106353,   No,88.23529412
+14,2,5,blue,bird,"[M, M, M, M, M, M, M, M, M, M, M, M, M]",13,0,0,13,0,85407,   No,0
+15,2,5,pink,bird,[C],1,1,0,1,741,8137,   No,100
+16,2,5,pink,bird,[C],2,1,0,1,481,10332,   No,50
+17,2,5,blue,bird,"[M, M, M, M, M, M, M, M, M, M]",10,0,0,10,0,65582,   No,0
+18,2,6,red,bird,"[M, C, C]",3,2,1,0,757,16803,   No,66.66666667
+19,2,6,red,bird,"[M, C, C, C, C, C, C, C, M]",9,7,2,0,824,56454,   No,77.77777778
+20,1,6,pink,bird,"[C, C, C, C, C, C, C, C]",9,8,1,0,971,53730,   No,88.88888889
+21,1,6,red,bird,"[C, C, C, C, C, C, C, C, C, C, M, C, C, C]",14,13,1,0,785,93980,   No,92.85714286
+22,1,6,blue,bird,"[M, M, M, M, M, M, M, M, M, M, M, M, M, M, M, M]",17,0,17,18,0,107652,   No,0
+23,1,6,yellow,bird,"[C, C, C, C, C, C, C, C, M, C, C]",11,10,1,0,1024,71768,   No,90.90909091
+24,1,6,yellow,bird,[C],1,1,0,0,319,2558,   No,100
+25,2,6,red,bird,[M],2,0,2,0,0,9306,   No,0
+26,2,6,pink,bird,"[M, C]",2,1,1,0,1077,9653,   No,50
+27,2,6,blue,bird,"[M, M, M]",4,0,4,5,0,24272,   No,0
+28,2,6,pink,bird,"[C, C, C, C, C, C]",6,6,0,0,926,37485,   No,100
+29,2,6,red,bird,[],1,0,1,0,0,1514,   No,0
+30,2,7,red,bird,[],1,0,1,0,0,1245,   No,0
+31,2,7,blue,bird,[],1,0,1,0,0,1803,   No,0
+32,2,7,blue,bird,"[M, M, M, M, M]",6,0,6,6,0,35262,   No,0
+33,2,7,pink,bird,"[C, C, C, C, C, C, C, C, C, C, C, C]",12,12,0,0,1023,76797,   No,100
+34,2,7,blue,bird,"[M, M, M, M, M, M]",7,0,7,83,0,45086,   No,0
+35,1,7,yellow,bird,"[C, C, C, C, C, C, C, C, C, C, C, C, M]",13,12,1,0,1225,84117,   No,92.30769231
+36,1,7,pink,bird,"[C, C, C, C, M, C, C, M, C, C, C, C, C, C, C, M, C]",17,14,3,0,1062,114481,   No,82.35294118
+37,1,7,yellow,bird,"[C, C, C, C, C, C, C, C, C, C, C, C, C, C, C, C]",16,16,0,0,719,105494,   No,100
+38,1,7,blue,bird,[],1,0,1,0,0,2192,   No,0
+39,1,7,blue,bird,[],1,0,1,1,0,2125,   No,0
+40,1,7,blue,bird,"[M, M, M, M, M, M, M, M, M, M, M, M, M, M, M, M, M, M, M, M, M, M, M, M, M, M, M]",28,0,28,47,0,179629,   No,0
+41,1,7,blue,bird,"[M, M, M, M, M, M, M, M, M, M, M, M, M, M]",15,0,15,15,0,96133,   No,0
+42,1,7,yellow,bird,"[C, C, C, C, C, C, C, C, C, C, C, C, C, C, C, M]",16,15,1,0,1083,102242,   No,93.75
