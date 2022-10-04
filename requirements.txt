@@ -113,7 +113,7 @@ Pygments==2.11.2
 pyinstaller==4.4
 pyinstaller-hooks-contrib==2021.2
 pyparsing==2.4.7
-pypiwin32==223;platform_system == "Windows"
+pypiwin32==223
 pyppeteer==1.0.2
 PyQt5==5.15.6
 PyQt5-Qt5==5.15.2
@@ -121,7 +121,7 @@ PyQt5-sip==12.10.1
 pyrsistent==0.18.1
 python-dateutil==2.8.2
 pytz==2021.1
-pywin32==303
+pywin32==303;platform_system == "Windows"
 pywin32-ctypes==0.2.0
 PyYAML==6.0
 pyzmq==22.3.0
