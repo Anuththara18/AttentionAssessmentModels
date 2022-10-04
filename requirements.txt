@@ -113,7 +113,7 @@ Pygments==2.11.2
 pyinstaller==4.4
 pyinstaller-hooks-contrib==2021.2
 pyparsing==2.4.7
-pypiwin32==223
+pypiwin32==223;platform_system == "Windows"
 pyppeteer==1.0.2
 PyQt5==5.15.6
 PyQt5-Qt5==5.15.2
@@ -123,7 +123,6 @@ python-dateutil==2.8.2
 pytz==2021.1
 pywin32==303
 pywin32-ctypes==0.2.0
-pywinpty==2.0.5
 PyYAML==6.0
 pyzmq==22.3.0
 regex==2021.11.10
@@ -132,7 +131,7 @@ requests-oauthlib==1.3.0
 responses==0.18.0
 rsa==4.8
 scikit-learn==0.24.1
-scipy==1.6.3
+scipy==1.7.2
 seaborn==0.11.2
 Send2Trash==1.8.0
 six==1.15.0
