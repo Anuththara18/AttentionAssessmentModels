@@ -26,9 +26,9 @@ async def predict(req:Performance):
 	predict=model.predict([features])
 	if(predict==1):
 		return {"Ans 1 {}".format(predict)}
-	else if (predict==2):
+	elif (predict==2):
 		return {"Ans 2 {}".format(predict)}
-	else if (predict==3):
+	elif (predict==3):
 		return {"Ans 3 {}".format(predict)}
 	else:
 		return {"Ans 4 {}".format(predict)}
