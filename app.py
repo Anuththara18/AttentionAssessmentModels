@@ -5,7 +5,7 @@ from models import Performance
 
 app=FastAPI()
 
-model=pickle.load(open("finalized_model.sav", "rb"))
+model=pickle.load(open("selectivemodel.sav", "rb"))
 
 @app.get("/{name}")
 async def hello(name):
@@ -17,6 +17,7 @@ async def greet():
 	
 @app.post("/predict")
 async def predict(req:Performance):
+	age=req.age
 	mrt=req.meanReactionTime
 	pcr=req.percentageOfCorrectResponses
 	oer=req.omissionErrorRate
@@ -25,8 +26,12 @@ async def predict(req:Performance):
 	predict=model.predict([features])
 	if(predict==1):
 		return {"Ans 1 {}".format(predict)}
-	else:
+	else if (predict==2):
 		return {"Ans 2 {}".format(predict)}
+	else if (predict==3):
+		return {"Ans 3 {}".format(predict)}
+	else:
+		return {"Ans 4 {}".format(predict)}
 	
 if __name__=="__main__":
 	uvicorn.run(app, host="127.0.0.1", port=5049)
