@@ -22,7 +22,7 @@ async def predict(req:Performance):
 	pcr=req.pcr
 	oer=req.oer
 	cer=req.cer
-	features=list([mrt,pcr,oer,cer])
+	features=list([age,mrt,pcr,oer,cer])
 	predict=model.predict([features])
 	if(predict==1):
 		return {"Ans 1 {}".format(predict)}
