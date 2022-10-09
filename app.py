@@ -18,10 +18,10 @@ async def greet():
 @app.post("/predict")
 async def predict(req:Performance):
 	age=req.age
-	mrt=req.meanReactionTime
-	pcr=req.percentageOfCorrectResponses
-	oer=req.omissionErrorRate
-	cer=req.commissionErrorRate
+	mrt=req.mrt
+	pcr=req.pcr
+	oer=req.oer
+	cer=req.cer
 	features=list([mrt,pcr,oer,cer])
 	predict=model.predict([features])
 	if(predict==1):
