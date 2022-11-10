@@ -39,7 +39,6 @@ async def predict(req:Performance):
 	else:
 		return {"Ans 2 {}".format(predict)}
 
-"""		
 @app.post("/aa2predict")
 async def predict(req:Performance):
 	age=req.age
@@ -134,3 +133,5 @@ async def predict(req:SUAPerformance):
 
 if __name__=="__main__":
 	uvicorn.run(app, host="127.0.0.1", port=5049)
+	
+"""
