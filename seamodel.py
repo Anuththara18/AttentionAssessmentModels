@@ -5,4 +5,4 @@ class SEAPerformance(BaseModel):
 	td: float
 	pcr: float
 	oer: float
-    cer: float
+	cer: float
