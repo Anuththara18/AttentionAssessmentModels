@@ -4,7 +4,7 @@ import pickle
 from models import Performance
 from famodel import FAPerformance
 from seamodel import SEAPerformance
-from suamodel importSUAPerformance
+from suamodel import SUAPerformance
 
 app = FastAPI()
 
@@ -25,7 +25,6 @@ async def hello(name):
 async def greet():
 	return {"Hello World!"}
 
-"""
 @app.post("/aa1predict")
 async def predict(req:Performance):
 	age=req.age
@@ -39,7 +38,8 @@ async def predict(req:Performance):
 		return {"Ans 1 {}".format(predict)}
 	else:
 		return {"Ans 2 {}".format(predict)}
-	
+
+"""		
 @app.post("/aa2predict")
 async def predict(req:Performance):
 	age=req.age
