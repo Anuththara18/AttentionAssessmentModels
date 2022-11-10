@@ -24,7 +24,8 @@ async def hello(name):
 @app.get("/")
 async def greet():
 	return {"Hello World!"}
-	
+
+"""
 @app.post("/aa1predict")
 async def predict(req:Performance):
 	age=req.age
@@ -128,6 +129,8 @@ async def predict(req:SUAPerformance):
 		return {"Ans 2 {}".format(predict)}
 	else:
 		return {"Ans 3 {}".format(predict)}
-	
+
+"""
+
 if __name__=="__main__":
 	uvicorn.run(app, host="127.0.0.1", port=5049)
