@@ -108,7 +108,7 @@ async def predict(req:SEAPerformance):
 		return {"Ans 1 {}".format(predict)}
 	elif (predict==1):
 		return {"Ans 2 {}".format(predict)}
-    elif (predict==2):
+	elif (predict==2):
 		return {"Ans 3 {}".format(predict)}
 	else:
 		return {"Ans 4 {}".format(predict)}
