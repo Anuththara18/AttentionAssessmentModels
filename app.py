@@ -35,9 +35,9 @@ async def predict(req:Performance):
 	features=list([age,mrt,pcr,oer,cer])
 	predict=modelaa1.predict([features])
 	if(predict==0):
-		return {"".format(predict)}
+		return {"{}".format(predict)}
 	else:
-		return {"".format(predict)}
+		return {"{}".format(predict)}
 
 @app.post("/aa2predict")
 async def predict(req:Performance):
