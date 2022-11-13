@@ -49,11 +49,11 @@ async def predict(req:Performance):
 	features=list([age,mrt,pcr,oer,cer])
 	predict=modelaa2.predict([features])
 	if(predict==0):
-		return {"Ans 1 {}".format(predict)}
+		return {"{}".format(predict)}
 	elif (predict==1):
-		return {"Ans 2 {}".format(predict)}
+		return {"{}".format(predict)}
 	else:
-		return {"Ans 3 {}".format(predict)}
+		return {"{}".format(predict)}
 	
 @app.post("/dapredict")
 async def predict(req:Performance):
@@ -65,9 +65,9 @@ async def predict(req:Performance):
 	features=list([age,mrt,pcr,oer,cer])
 	predict=modelda.predict([features])
 	if(predict==0):
-		return {"Ans 1 {}".format(predict)}
+		return {"{}".format(predict)}
 	else:
-		return {"Ans 2 {}".format(predict)}
+		return {"{}".format(predict)}
 	
 @app.post("/faonepredict")
 async def predict(req:FAPerformance):
@@ -78,9 +78,9 @@ async def predict(req:FAPerformance):
 	features=list([age,mrt,pcr,oer])
 	predict=modelfa1.predict([features])
 	if(predict==0):
-		return {"Ans 1 {}".format(predict)}
+		return {"{}".format(predict)}
 	else:
-		return {"Ans 2 {}".format(predict)}
+		return {"{}".format(predict)}
 	
 @app.post("/fatwopredict")
 async def predict(req:FAPerformance):
@@ -91,9 +91,9 @@ async def predict(req:FAPerformance):
 	features=list([age,mrt,pcr,oer])
 	predict=modelfa2.predict([features])
 	if(predict==0):
-		return {"Ans 1 {}".format(predict)}
+		return {"{}".format(predict)}
 	else:
-		return {"Ans 2 {}".format(predict)}
+		return {"{}".format(predict)}
 	
 @app.post("/seapredict")
 async def predict(req:SEAPerformance):
@@ -105,13 +105,13 @@ async def predict(req:SEAPerformance):
 	features=list([age,td,pcr,oer,cer])
 	predict=modelsea.predict([features])
 	if(predict==0):
-		return {"Ans 1 {}".format(predict)}
+		return {"{}".format(predict)}
 	elif (predict==1):
-		return {"Ans 2 {}".format(predict)}
+		return {"{}".format(predict)}
 	elif (predict==2):
-		return {"Ans 3 {}".format(predict)}
+		return {"{}".format(predict)}
 	else:
-		return {"Ans 4 {}".format(predict)}
+		return {"{}".format(predict)}
     
 @app.post("/suapredict")
 async def predict(req:SUAPerformance):
@@ -123,11 +123,11 @@ async def predict(req:SUAPerformance):
 	features=list([age,mrt,pcr,oer,td])
 	predict=modelsua.predict([features])
 	if(predict==0):
-		return {"Ans 1 {}".format(predict)}
+		return {"{}".format(predict)}
 	elif (predict==1):
-		return {"Ans 2 {}".format(predict)}
+		return {"{}".format(predict)}
 	else:
-		return {"Ans 3 {}".format(predict)}
+		return {"{}".format(predict)}
 
 """
 
